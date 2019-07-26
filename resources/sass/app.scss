@@ -6,3 +6,21 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskannada.css);
+body{
+    font-family: 'Lemonada', cursive;
+}
+.carousel-inner>.item {
+    position: relative;
+    max-height: 600px;
+}
+.carousel-caption{
+    color: black;
+    text-align: right;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    right: 0%;
+    transform: translateY(-50%);
+}
