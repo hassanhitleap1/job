@@ -16,3 +16,16 @@ Route::get('/', 'HomeController@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('governorates', 'GovernorateController');
+
+Route::resource('nationalitys', 'NationalityController');
+
+Route::resource('requast-job', 'RequastJobController');
+
+
+
+
+
+
+
